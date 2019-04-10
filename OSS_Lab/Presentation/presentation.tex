@@ -1,0 +1,171 @@
+\documentclass{beamer}
+\usetheme[faculty=fi]{fibeamer}
+\usepackage[utf8]{inputenc}
+\usepackage[
+  main=english, %% By using `czech` or `slovak` as the main locale
+                %% instead of `english`, you can typeset the
+                %% presentation in either Czech or Slovak,
+                %% respectively.
+  czech, slovak %% The additional keys allow foreign texts to be
+]{babel}   
+
+\title{
+ PYTHON\\ DIVY PATEL 171080056\\ Under the Guidance of Pranav Sir} %% that will be typeset on the
+  \subtitle{Quick Overview} %% title page.
+  \author{Divy Patel}
+\begin{document}
+  \frame{\maketitle}
+ \begin{darkframes}
+    \begin{frame}{CONTENTS}
+    \tableofcontents
+    \section{HISTORY}
+    \section{FEATURES}
+    \section{INBUILT OBJECTS}
+    \section{OPERATORS}
+    \section{FUNCTIONS}
+    \section{CONTROL STRUCTURES}
+    \section{REFERENCES}
+    \end{frame}
+    
+     \begin{frame}{ \textbf{HISTORY}}
+        \begin{itemize}
+         \item Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL), capable of exception handling and interfacing with the Amoeba operating system. 
+         \item Its implementation began in December 1989. Van Rossum's long influence on Python is reflected in the title given to him by the Python community: Benevolent Dictator For Life (BDFL) – a post from which he gave himself permanent vacation on July 12, 2018.
+         \item Python 2.0 was released on 16 October 2000 with many major new features, including a cycle-detecting garbage collector and support for Unicode.
+        \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{\textbf{FEATURES}}
+    \begin{itemize}
+        \item Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of its features support functional programming and aspect-oriented programming (including by metaprogramming and metaobjects (magic methods)).
+        \item Many other paradigms are supported via extensions, including design by contract and logic programming.
+        \item Python uses dynamic typing, and a combination of reference counting and a cycle-detecting garbage collector for memory management. \item It also features dynamic name resolution (late binding), which binds method and variable names during program execution.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{\textbf{INBUILT OBJECTS}}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Types} & \textbf{Mutability} & \textbf{Description}\\
+        \hline
+         bytes & Immutable & Sequence of bytes\\
+         \hline
+         str & Immutable & A Sequence of unicode codepoints \\
+         \hline
+         int & Immutable & Integer of unlimited magnitude\\
+         \hline
+         float & Immutable & Floating Point Number\\
+         \hline
+         bool & Immutable & Boolean value\\
+         \hline
+         list & Mutable & List, can contain mixed types\\
+         \hline
+         set & Mutable& Unordered set, contains no duplicates\\
+         \hline
+         dict & Mutable& Associative arrays, with key-value pairs\\
+         \hline
+    \end{tabular}
+    
+    \end{frame}
+    
+    \begin{frame}{\textbf{OPERATORS}}
+    \begin{tabular}{|c|c|}
+    \hline 
+    \textbf{Operator} & \textbf{Description} \\
+    \hline
+    + Addition & Adds values on either side of operator.\\
+    \hline
+    - Substraction & Substracts right operand from left operand.\\
+    \hline 
+    * Multiplication & Multiply operands on either side.\\
+    \hline 
+    / Division & Divide right operand from the left operand.\\
+    \hline 
+    \% Modulus & Gives Remainder.\\
+    \hline 
+    ** Division & Power of left raised by right operand.\\
+    \hline
+    \end{tabular}
+    \end{frame}
+    
+    \begin{frame}{\textbf{DEFINING THE FUNCTIONS}}
+    You can define functions to provide the required functionality. Here are simple rules to define a function in Python.
+    \begin{itemize}
+        \item Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).
+        \item Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.
+        \item The code block within every function starts with a colon (:) and is indented.
+        \item The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{\textbf{FUNCTIONS SYNTAX}}
+        \begin{block}{Function Declaration}
+      def FunctionName (params):\\
+        \\\quad  \# body of the function
+        \\ \quad Statements we want to execute\\
+    \end{block}
+    \begin{block}{Function Calling}
+      FunctionName (args)\\
+    \end{block}
+    \end{frame}
+    
+  \begin{frame}{\textbf{Control Structure}}
+    \begin{block}{FOR LOOP}
+      for i in iterable :\\
+        \\\quad  \# body of the loop
+        \\ \quad Statements we want to execute\\
+    \end{block}
+    
+    \begin{block}{WHILE LOOP}
+      while condition :\\
+        \\\quad  \# body of the loop
+        \\ \quad Statements we want to execute\\
+     \end{block}
+    
+    \begin{block}{IF STATEMENT}
+      if condition :\\
+        \\\quad  \# body 
+        \\ \quad Statements we want to execute\\
+     \end{block}
+     
+  \end{frame}
+  
+  \begin{frame}{\textbf{CONTROL STRUCTURES}}
+     \begin{block}{IF-ELSE STATEMENT}
+      if condition :\\
+        \\\quad  \# body 
+        \\ \quad Statements we want to execute\\
+      else : \\
+        \\\quad  \# body 
+        \\ \quad Statements we want to execute\\
+     \end{block}
+  \end{frame}
+  
+  \begin{frame}{\textbf{CONTROL STRUCTURES}}
+     \begin{block}{ELSE-IF STATEMENT}
+      if condition1 :\\
+        \\\quad  \# body 
+        \\ \quad Statements we want to execute\\
+      elif condition2 : \\
+        \\\quad  \# body 
+        \\ \quad Statements we want to execute\\
+     \end{block}
+  \end{frame}
+ 
+  \begin{frame}{\textbf{REFERENCES}}
+\begin{thebibliography}{9}
+\bibitem{python}
+Python Official Docs \\
+\texttt{https://www.python.org/doc/}
+ 
+\bibitem{tutorialspoint}
+Tutorials Point \\
+\texttt{https://www.tutorialspoint.com/python/}
+
+\bibitem{geeksforgeeks}
+GeeksForGeeks
+\\\texttt{https://www.geeksforgeeks.org/python-programming-language/}
+\end{thebibliography}
+  \end{frame}
+    \end{darkframes}
+\end{document}
