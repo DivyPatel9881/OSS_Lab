@@ -5,8 +5,8 @@
   [Visit the website](www.upscfever.com)
   
 # LATEX PROJECTS
- -[Resume](https://www.overleaf.com/read/gxzfpndtpffj)
- -[Presentation](https://www.overleaf.com/read/sbfxjzzfpvnf)
- -[Report](https://www.overleaf.com/read/xqwnndfjwcqf)
- -[Thesis](https://www.overleaf.com/read/djjjjxsgqdxv)
- -[Poster](https://www.overleaf.com/read/xmmdgjwvhvvz)
+ - [Resume](https://www.overleaf.com/read/gxzfpndtpffj)
+ - [Presentation](https://www.overleaf.com/read/sbfxjzzfpvnf)
+ - [Report](https://www.overleaf.com/read/xqwnndfjwcqf)
+ - [Thesis](https://www.overleaf.com/read/djjjjxsgqdxv)
+ - [Poster](https://www.overleaf.com/read/xmmdgjwvhvvz)
