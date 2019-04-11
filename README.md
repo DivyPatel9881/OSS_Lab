@@ -2,7 +2,7 @@
   Python basics to advanced tutorial and programming questions taken from UPSC fever along with their solutions included
 
 # UPSC FEVER
-  [Visit the website](www.upscfever.com)
+  [Visit the website](https://www.upscfever.com)
   
 # LATEX PROJECTS
  - [Resume](https://www.overleaf.com/read/gxzfpndtpffj)
